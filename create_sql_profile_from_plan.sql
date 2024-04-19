@@ -1,6 +1,7 @@
 -- Script create_sql_profile_from_plan.sql
 -- Takes Four parameters sql_id plan_value category (DEFAULT) force_match (FALSE)
---Set a profile for given hash plan value
+-- Set a profile for given hash plan value
+
 declare
 ar_profile_hints sys.sqlprof_attr;
 cl_sql_text      clob;
